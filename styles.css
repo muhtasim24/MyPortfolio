@@ -415,6 +415,7 @@ section {
 @media(max-width:1285px){
     #menu-icon{
         display: block;
+        cursor: pointer;
     }
     .navbar{
         position: absolute;
