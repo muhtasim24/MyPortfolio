@@ -306,7 +306,7 @@ section {
 /* ----------------------------------- EXPERIENCE SECTION -----------------------------*/
 .experience{
     padding: 100px 15px;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 .experience h2{
     margin-bottom: 5rem;
