@@ -374,6 +374,12 @@ section {
     font-size: 20px;
     color: white;
     margin: 0 0 10px;
+    font-weight: 600;
+}
+.timeline-content h4{
+    font-size: 15px;
+    color: white;
+    margin: 0 0 10px;
     font-weight: 500;
 }
 .timeline-content p{
