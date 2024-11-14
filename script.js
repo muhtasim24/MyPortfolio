@@ -17,7 +17,7 @@ function sendMail(){
     + "?from=" + encodeURIComponent(email)
     + "&subject=" + encodeURIComponent(subject)
     + "&body=" 
-    + encodeURIComponent("Email: " + email + "\nName: " + name + "\nPhone Number: " + number + "\n\n" + body);
+    + encodeURIComponent("Name: " + name + "\nEmail: " + email + "\nPhone Number: " + number + "\n\n" + body);
 }
 
 function readMore(){
