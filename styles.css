@@ -241,6 +241,10 @@ section {
 ::-webkit-scrollbar-track{
     background-color: var(--bg-color);
 }
+#read-more{
+    color: white;
+    display: none;
+}
 /* ----------------------------------- ABOUT SECTION -----------------------------*/
 
 /* ----------------------------------- SERVICES SECTION -----------------------------*/

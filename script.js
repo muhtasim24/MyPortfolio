@@ -19,3 +19,18 @@ function sendMail(){
     + "&body=" 
     + encodeURIComponent("Email: " + email + "\nName: " + name + "\nPhone Number: " + number + "\n\n" + body);
 }
+
+function readMore(){
+    var moreText = document.getElementById('read-more');
+    var readBtn = document.getElementById('readBtn');
+
+    if (readBtn.innerHTML === "Read More"){
+        moreText.style.display = "inline";
+        readBtn.innerHTML = "Read Less";
+    }
+    else {
+        readBtn.innerHTML = "Read More";
+        moreText.style.display = "none";
+    }
+    
+}
